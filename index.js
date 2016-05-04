@@ -29,6 +29,6 @@ app.use('/assets', express.static('ui'));
 
 app.use('/', router);
 
-app.listen(3456);
+app.listen(process.env.PORT || 3456)
 
 module.exports = app;
