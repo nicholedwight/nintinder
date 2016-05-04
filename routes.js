@@ -14,7 +14,7 @@ router.route('/user1')
       user: 'Nichole',
       bumpins: [{name: 'Alex', time: '3 minutes ago', url: '/assets/Alex.jpg', id: 2},
                 {name: 'Richard', time: '27 minutes ago', url: '/assets/Richard.jpg', id: 3},
-                {name: 'Ben', time: 'yesterday', url: '/assets/ben.jpg', id: 4}]
+                {name: 'Ben', time: 'yesterday', url: '/assets/Ben.jpg', id: 4}]
     });
   })
 
