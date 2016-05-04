@@ -4,7 +4,17 @@
 
   <h2 class="text-align--center">Recent Bump-in's</h2>
   {{#each bumpins}}
-    <p><a href="/user{{this.id}}"><img src="{{this.url}}" width="30px" class="align-block--left quarter-margin--right"> {{this.name}}: {{this.time}}</a></p>
+    <p class="double-margin--top"><a href="/user{{this.id}}"><img src="{{this.url}}" width="30px" class="align-block--left quarter-margin--right"> {{this.name}}: {{this.time}}</a></p>
   {{/each}}
 
+  <p><a href="#" id="getModal">.</a></p>
+</div>
+
+<div class="modal" data-modal>
+  <div class="modal__container" data-container>
+    <a href="#" class="modal__close" data-close>x</a>
+    <img src="/assets/richard.jpg" width="50px;" class="align-block--center">
+    <p class="text-align--center">Richard is nearby! Go get em' tiger!</p>
+    <a href="#" class="button align-block--center text-align--center align-block--center" data-close>Done</a>
+  </div>
 </div>
