@@ -1,0 +1,10 @@
+<div class="inner">
+  <h1 class="text-align--center">HELLO {{user}}</h1>
+  <img src="/assets/{{user}}.jpg" width="50px" class="align-block--center">
+
+  <h2 class="text-align--center">Recent Bump-in's</h2>
+  {{#each bumpins}}
+    <p><a href="/user{{this.id}}"><img src="{{this.url}}" width="30px" class="align-block--left quarter-margin--right"> {{this.name}}: {{this.time}}</a></p>
+  {{/each}}
+
+</div>
