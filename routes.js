@@ -12,8 +12,8 @@ router.route('/user1')
     res.render('user.hbs', {
       title: 'user 1',
       user: 'Nichole',
-      bumpins: [{name: 'Alex', time: '3 minutes ago', url: '/assets/alex.jpg', id: 2},
-                {name: 'Richard', time: '27 minutes ago', url: '/assets/richard.jpg', id: 3},
+      bumpins: [{name: 'Alex', time: '3 minutes ago', url: '/assets/Alex.jpg', id: 2},
+                {name: 'Richard', time: '27 minutes ago', url: '/assets/Richard.jpg', id: 3},
                 {name: 'Ben', time: 'yesterday', url: '/assets/ben.jpg', id: 4}]
     });
   })
@@ -23,7 +23,7 @@ router.route('/user2')
     res.render('user.hbs', {
       title: 'user 2',
       user: 'Alex',
-      bumpins: [{name: 'Nichole', time: '3 minutes ago', url: '/assets/nichole.jpg', id: 1}]
+      bumpins: [{name: 'Nichole', time: '3 minutes ago', url: '/assets/Nichole.jpg', id: 1}]
     });
   })
 
@@ -32,7 +32,7 @@ router.route('/user3')
     res.render('user.hbs', {
       title: 'user 3',
       user: 'Richard',
-      bumpins: [{name: 'Nichole', time: '3 minutes ago', url: '/assets/nichole.jpg', id: 1}]
+      bumpins: [{name: 'Nichole', time: '3 minutes ago', url: '/assets/Nichole.jpg', id: 1}]
     });
   })
 
@@ -41,7 +41,7 @@ router.route('/user4')
     res.render('user.hbs', {
       title: 'user 4',
       user: 'Ben',
-      bumpins: [{name: 'Nichole', time: '3 minutes ago', url: '/assets/nichole.jpg', id: 1}]
+      bumpins: [{name: 'Nichole', time: '3 minutes ago', url: '/assets/Nichole.jpg', id: 1}]
     });
   })
 
